@@ -1,16 +1,18 @@
 $ ("#date").click(function(){
     console.log("buttonClick");
     $.ajax({
-        url:"https://randomuser.me/api?inc=gender,name,dob",
+        url:"https://randomuser.me/api?inc",
         method: "GET", 
         dataType: 'json',
     }).then(function(results){
         console.log(results);
         console.log("The button has been clicked")
-        var plung = results;
-        console.log(plung)
+        // var plung = results;
+        // console.log(plung)
         
-        $('#randomUser').append(JSON.stringify(plung));
+        let userImage = JSON.stringify(results.results[0].picture.medium)
+        $('#randomUser').append(`<img src=${userImage}></img>`);
+       // $('#randomUser').append(JSON.stringify(results));
     })
 
 
@@ -22,10 +24,15 @@ $ ("#Horiscope").click(function(){
     console.log("buttonClick");
     $.ajax({
         url:"https:sandipbgt.com/theastrologer/api",
+        method: "GET",
         dataType: 'json',
-    }).then(function(data){
-        console.log(data);
+    }).then(function(results){
+        console.log(results);
         console.log("The button has been clicked")
+        // var plung = results;
+        // console.log(plung)
+        
+        $('#birthDay').append(JSON.stringify(results))
     })
         
 
