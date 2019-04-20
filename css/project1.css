@@ -1,0 +1,11 @@
+body {
+    background-image: url(/Images/sunset1.jpg)
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+       
