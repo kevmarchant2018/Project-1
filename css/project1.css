@@ -1,5 +1,8 @@
-body {
-    background-image: url(/Images/sunset1.jpg)
+html, body {
+    background-image: url('../Images/pizza.jpeg');
+    /* background-color: teal; */
+    background-size: cover;
+    opacity: 1.0;
 }
 
 .container {
@@ -7,5 +10,6 @@ body {
     text-align: center;
     color: black;
 }
+
 
        
