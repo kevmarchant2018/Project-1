@@ -2,14 +2,87 @@ html, body {
     background-image: url('../Images/pizza.jpeg');
     /* background-color: teal; */
     background-size: cover;
-    opacity: 1.0;
+    position: relative;
+    text-shadow: 8px;
+    text-align: center;
+    color: darkblue;
 }
 
-.container {
+h1 {
     position: relative;
     text-align: center;
-    color: black;
+    color:black;
+    border-style: solid;
+    display: inline;
+    font-weight: 900; 
 }
 
+h2 {
+    position: relative;
+    text-align: center;
+    color:black;
+    border-style: solid;
+    display: inline;
+    font-weight: 900; 
 
+}
+
+#randomName {
+    position: relative;
+    text-align: center;
+    color:black;
+    border-style: solid;
+    display: inline;
+    font-weight: 900;
+
+}
+
+#randomAge {
+    position: relative;
+    text-align: center;
+    color:black;
+    border-style: solid;
+    display: inline;
+    font-weight: 900;
+
+}
+
+#date {
+    position: relative;
+    text-align: center;
+    color:black;
+    border-style: solid;
+    display: inline;
+    font-weight: 900;
+
+}
+
+#yelp {
+    position: relative;
+    text-align: center;
+    color:black;
+    border-style: solid;
+    display: inline;
+    font-weight: 900;
+
+}
+
+#tester {
+    background-color: transparent;
+}
+#location{
+    position: relative;
+    text-align: center;
+    color:black;
+    display: inline;
+    font-weight: 900;
+}
        
+.field {
+    position: relative;
+    text-align: center;
+    color:black;
+    border-style: solid;
+    display: inline;
+    font-weight: 900;
+}
